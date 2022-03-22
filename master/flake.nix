@@ -1,5 +1,5 @@
 {
-  description = ''Bindings for SunVox modular synthesizer'';
+  description = ''Nim bindings for SunVox modular synthesizer'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-sunvox-master.flake = false;
   inputs.src-sunvox-master.owner = "exelotl";
-  inputs.src-sunvox-master.ref   = "refs/heads/master";
+  inputs.src-sunvox-master.ref   = "master";
   inputs.src-sunvox-master.repo  = "nim-sunvox";
   inputs.src-sunvox-master.type  = "github";
   
