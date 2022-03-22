@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-sunvox-0_1_1.flake = false;
+  inputs.src-sunvox-0_1_1.ref   = "refs/tags/0.1.1";
   inputs.src-sunvox-0_1_1.owner = "exelotl";
-  inputs.src-sunvox-0_1_1.ref   = "0_1_1";
   inputs.src-sunvox-0_1_1.repo  = "nim-sunvox";
   inputs.src-sunvox-0_1_1.type  = "github";
   
